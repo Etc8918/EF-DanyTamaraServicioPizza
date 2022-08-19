@@ -3,6 +3,7 @@ package com.idat.EFDanyTamaraServicioPizza.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.idat.EFDanyTamaraServicioPizza.client.OpenFeignPizzeria;
 import com.idat.EFDanyTamaraServicioPizza.dto.PizzeriaDTO;
@@ -10,6 +11,7 @@ import com.idat.EFDanyTamaraServicioPizza.entity.PizzeriaPizza;
 import com.idat.EFDanyTamaraServicioPizza.entity.PizzeriaPizzaFK;
 import com.idat.EFDanyTamaraServicioPizza.repository.PizzeriaPizzaRepository;
 
+@Service
 public class PizzeriaPizzaServiceImpl implements PizzeriaPizzaService {
 
 	@Autowired
